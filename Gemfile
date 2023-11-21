@@ -72,3 +72,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ここから下が追加分
 gem 'jquery-rails'
+
+gem 'bcrypt' #has_secure_passwordは内部で暗号化する際にbcryptと言うgemを使用する
