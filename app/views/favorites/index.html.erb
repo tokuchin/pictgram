@@ -8,6 +8,10 @@
               <%= topic.user.name %>
             </h2>
             <%= image_tag topic.image.url %>
+            <%= link_to favorites_path(topic_id: topic.id), method: :delete do %>
+              <i class="fa-regular fa-heart topic-index-favorite-red-icon"></i>
+            <% end %>
+            <%= topic.favorite_users.count %>
             <%= image_tag 'icons/comment.png', class: 'topic-index-icon' %>
             <p class="topic-text">
               <%= topic.description %>
