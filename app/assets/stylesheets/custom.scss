@@ -36,7 +36,7 @@ h1, h2 {
   margin-bottom: 0px;
   background-color: rgba(0,0,0,0.5);
   a {
-    colar: #fff !important;
+    color: #fff !important;
   }
   
   .navbar-brand {
@@ -114,6 +114,19 @@ h1, h2 {
       font-size: 220%;
       margin-left: 20px;
       color: red;
+    }
+    
+    .comment {
+      font-size: 20px;
+      margin-top: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    
+    .comment-description {
+      padding-right: 20px;
+      padding-left: 20px;
+      list-style:none
     }
     
   }
